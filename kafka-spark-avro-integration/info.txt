@@ -1,0 +1,1 @@
+Project that shows how to send messages in the Avro format into Kafka so that they can be consumed by Spark Streaming.

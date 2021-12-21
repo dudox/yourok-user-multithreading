@@ -1,0 +1,11 @@
+/target/
+/.classpath
+/.project
+/.idea/
+/.idea/dictionaries/andrea_muti.xml
+/.idea/kafka-projects.iml
+/.idea/vcs.xml
+/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml
+/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml
+/.idea/misc.xml
+/.idea/modules.xml

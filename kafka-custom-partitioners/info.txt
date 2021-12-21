@@ -1,0 +1,9 @@
+In order run this example, a Kafka Topic 'UserMessageTopic' with 6 partitios must be available on the Kafka Broker
+
+The topic may be created with the following command, to be issued on the kafka home directory;
+
+On Linux:
+./bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 6 --topic UserMessageTopic
+
+On Windows (with Mobax):
+./bin/windows/kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 6 --topic UserMessageTopic

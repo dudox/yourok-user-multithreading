@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration monitorInterval="30">
+
+	<properties>
+		<property name="pattern">%d{yyyy-MM-dd HH:mm:ss.SSS} | [%p] %msg%n</property>
+	</properties>
+
+	<Appenders>
+		<Console name="CONSOLE" target="SYSTEM_OUT">
+			<PatternLayout>
+				<pattern>${pattern}</pattern>
+			</PatternLayout>
+		</Console>
+		<Console name="CONSOLE_INFO" target="SYSTEM_OUT">
+			<PatternLayout>
+				<pattern>${pattern}</pattern>
+			</PatternLayout>
+		</Console>
+		<File name="FILE" fileName="logs/app.log" immediateFlush="true">
+			<PatternLayout>
+				<pattern>${pattern}</pattern>
+			</PatternLayout>
+		</File>
+	</Appenders>
+
+	<Loggers>
+		<Logger name="FileLogger" level="TRACE" additivity="false">
+			<AppenderRef ref="FILE" />
+		</Logger>
+		<Logger name="ConsoleLogger" level="INFO" additivity="false">
+			<AppenderRef ref="CONSOLE_INFO" />
+		</Logger>
+		<Root level="ERROR" >
+			<AppenderRef ref="CONSOLE" />
+		</Root>
+	</Loggers>
+
+</configuration>

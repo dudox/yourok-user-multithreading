@@ -1,0 +1,9 @@
+In order run this example, a Kafka Topic 'HelloKafkaTopic' with 3 partitios must be available on the Kafka Broker
+
+The topic may be created with the following command, to be issued on the kafka home directory;
+
+On Linux:
+./bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 3 --topic HelloKafkaTopic
+
+On Windows (with Mobax):
+./bin/windows/kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 3 --topic HelloKafkaTopic

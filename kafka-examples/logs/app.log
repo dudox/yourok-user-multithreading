@@ -1,0 +1,77 @@
+2017-11-04 14:30:25.405 FileLogger SLOT_1024 [INFO] ----------------
+2017-11-04 14:30:25.408 FileLogger SLOT_1024 [INFO] Entry storm: value: 11
+2017-11-04 14:30:25.408 FileLogger SLOT_1024 [INFO] Entry test: value: 22
+2017-11-04 14:30:25.408 FileLogger SLOT_1024 [INFO] Entry spark: value: 11
+2017-11-04 14:30:25.408 FileLogger SLOT_1024 [INFO] Entry kafka: value: 11
+2017-11-04 14:30:25.409 FileLogger SLOT_1024 [INFO] Entry another: value: 11
+2017-11-04 14:30:25.409 FileLogger SLOT_1024 [INFO] Entry hello: value: 11
+2017-11-04 14:30:25.409 FileLogger SLOT_1024 [INFO] Entry message: value: 22
+2017-11-04 14:33:40.002 | [INFO] ----------------
+2017-11-04 14:33:40.004 | [INFO] Entry storm: value: 11
+2017-11-04 14:33:40.005 | [INFO] Entry test: value: 22
+2017-11-04 14:33:40.005 | [INFO] Entry spark: value: 11
+2017-11-04 14:33:40.005 | [INFO] Entry kafka: value: 11
+2017-11-04 14:33:40.005 | [INFO] Entry another: value: 11
+2017-11-04 14:33:40.005 | [INFO] Entry hello: value: 11
+2017-11-04 14:33:40.005 | [INFO] Entry message: value: 22
+2017-11-04 14:39:28.505 | [INFO] Entry storm: value: 11
+2017-11-04 14:39:28.505 | [INFO] Entry test: value: 22
+2017-11-04 14:39:28.505 | [INFO] Entry spark: value: 11
+2017-11-04 14:39:28.506 | [INFO] Entry kafka: value: 11
+2017-11-04 14:39:28.506 | [INFO] Entry another: value: 11
+2017-11-04 14:39:28.506 | [INFO] Entry hello: value: 11
+2017-11-04 14:39:28.506 | [INFO] Entry message: value: 22
+2017-11-04 14:40:53.104 | [INFO] Entry storm: value: 11
+2017-11-04 14:40:53.105 | [INFO] Entry test: value: 22
+2017-11-04 14:40:53.105 | [INFO] Entry spark: value: 11
+2017-11-04 14:40:53.105 | [INFO] Entry kafka: value: 11
+2017-11-04 14:40:53.106 | [INFO] Entry another: value: 11
+2017-11-04 14:40:53.106 | [INFO] Entry hello: value: 11
+2017-11-04 14:40:53.106 | [INFO] Entry message: value: 22
+2017-11-04 14:42:43.047 | [INFO] Entry storm: value: 11
+2017-11-04 14:42:43.048 | [INFO] Entry test: value: 22
+2017-11-04 14:42:43.048 | [INFO] Entry spark: value: 11
+2017-11-04 14:42:43.048 | [INFO] Entry kafka: value: 11
+2017-11-04 14:42:43.048 | [INFO] Entry another: value: 11
+2017-11-04 14:42:43.048 | [INFO] Entry hello: value: 11
+2017-11-04 14:42:43.048 | [INFO] Entry message: value: 22
+2017-11-04 14:43:46.270 | [INFO] Entry storm: value: 12
+2017-11-04 14:43:46.271 | [INFO] Entry test: value: 24
+2017-11-04 14:43:46.271 | [INFO] Entry spark: value: 12
+2017-11-04 14:43:46.271 | [INFO] Entry kafka: value: 12
+2017-11-04 14:43:46.271 | [INFO] Entry another: value: 12
+2017-11-04 14:43:46.271 | [INFO] Entry hello: value: 12
+2017-11-04 14:43:46.271 | [INFO] Entry message: value: 24
+2017-11-04 14:45:18.408 | [INFO] Entry storm: value: 13
+2017-11-04 14:45:18.409 | [INFO] Entry test: value: 26
+2017-11-04 14:45:18.409 | [INFO] Entry spark: value: 13
+2017-11-04 14:45:18.409 | [INFO] Entry kafka: value: 13
+2017-11-04 14:45:18.409 | [INFO] Entry another: value: 13
+2017-11-04 14:45:18.409 | [INFO] Entry hello: value: 13
+2017-11-04 14:45:18.409 | [INFO] Entry message: value: 26
+2017-11-04 14:47:59.726 | [INFO] Word storm - count: 13
+2017-11-04 14:47:59.726 | [INFO] Word test - count: 26
+2017-11-04 14:47:59.727 | [INFO] Word spark - count: 13
+2017-11-04 14:47:59.727 | [INFO] Word kafka - count: 13
+2017-11-04 14:47:59.727 | [INFO] Word another - count: 13
+2017-11-04 14:47:59.727 | [INFO] Word hello - count: 13
+2017-11-04 14:47:59.727 | [INFO] Word message - count: 26
+2017-11-04 15:15:59.990 | [INFO] Word storm - count: 13
+2017-11-04 15:16:00.002 | [INFO] Word test - count: 26
+2017-11-04 15:16:00.003 | [INFO] Word retweet - count: 1
+2017-11-04 15:16:00.003 | [INFO] Word homedecor - count: 1
+2017-11-04 15:16:00.003 | [INFO] Word another - count: 13
+2017-11-04 15:16:00.003 | [INFO] Word govegan - count: 1
+2017-11-04 15:16:00.003 | [INFO] Word recipe - count: 1
+2017-11-04 15:16:00.003 | [INFO] Word nocruelty - count: 1
+2017-11-04 15:16:00.003 | [INFO] Word vegan - count: 1
+2017-11-04 15:16:00.004 | [INFO] Word message - count: 26
+2017-11-04 15:16:00.004 | [INFO] Word malaysia - count: 1
+2017-11-04 15:16:00.004 | [INFO] Word holiday - count: 1
+2017-11-04 15:16:00.004 | [INFO] Word food - count: 2
+2017-11-04 15:16:00.004 | [INFO] Word chefsforpuertorico - count: 1
+2017-11-04 15:16:00.004 | [INFO] Word spark - count: 13
+2017-11-04 15:16:00.004 | [INFO] Word kafka - count: 13
+2017-11-04 15:16:00.005 | [INFO] Word interiordesign - count: 1
+2017-11-04 15:16:00.005 | [INFO] Word hello - count: 13
+2017-11-04 15:16:00.005 | [INFO] Word travel - count: 1

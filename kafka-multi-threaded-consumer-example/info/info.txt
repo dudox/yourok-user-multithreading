@@ -1,0 +1,18 @@
+There are 2 possible models for a multi-threaded kafka consumer.
+
+ - Multiple consumers with their own threads (Model #1)
+    - Pros:
+       - Easy to implement
+       - Implementing in-order processing on per-partition is easier.
+    - Cons:
+       - The total of consumers is limited the total partitions of the topic. 
+         The redundant consumers may not be used.
+       - More TCP connections to the brokers
+   
+ - Single consumer, multiple worker processing threads (Model #2)
+ 	- Pros:
+ 	   - Be flexible in scale out the number of processing thread
+ 	- Cons:
+ 	   - It’s not easy to implement in-order processing on per partition. 
+ 	     Let’s say there are 2 messages on the same partitions being processed by 2 different threads. 
+ 	     To guarantee the order, those 2 threads must be coordinated somehow.
